@@ -7,7 +7,7 @@ import {
   FaUser,
 } from "react-icons/fa";
 import { useState } from "react";
-
+//
 const user = { _id: "", role: "admin" };
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
